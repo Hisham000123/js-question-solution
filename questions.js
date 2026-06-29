@@ -199,9 +199,9 @@ const employees = [
   // console.log(sal)
 
 
-const Tol = employees.map(emp => {
-    // Use backticks (`) instead of double quotes (")
-    return `${emp.name} works in ${emp.department}`;
-});
+// const Tol = employees.map(emp => {
+//     // Use backticks (`) instead of double quotes (")
+//     return `${emp.name} works in ${emp.department}`;
+// });
 
-console.log(Tol);
+// console.log(Tol);
