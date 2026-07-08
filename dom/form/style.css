@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background: #8e0c0c;
+}
+
+.frm {
+    width: 350px;
+    padding: 50px;
+    background: #e8f2f0;
+    border: 1px solid #d7b6b6;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    margin-top: 10px;
+    
+
+
+}
+
+ .frm > div{
+   
+ display: flex;
+   flex-direction: column;
+   gap: 4px; 
+ }
+.frm button{
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #8e0c0c;
+    border-radius: 10px;
+    color: white;
+   
+ 
+}
+#lname, #fname,#phone,#mail,#pass,#cpass{
+    padding: 6px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.error{
+    font-size: 14px;
+    color: red;
+}
+.container label{
+    color: red;
+}
